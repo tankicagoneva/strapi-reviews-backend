@@ -7,4 +7,9 @@ module.exports = ({ env }) => ({
   webhooks: {
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },
+  upload: {
+    // Customize this path based on your project structure
+    path: env('UPLOAD_PATH', '/opt/render/project/src/public/uploads'),
+  },
 });
+
