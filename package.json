@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "reviews-backend",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -13,16 +13,14 @@
     "start": "strapi start",
     "strapi": "strapi"
   },
-  "resolutions": {
-    "graphql": "^15.8.0"
-  },
   "dependencies": {
-    "@strapi/plugin-cloud": "4.16.2",
+    "@strapi/plugin-cloud": "4.19.0",
     "@strapi/plugin-graphql": "^4.16.2",
-    "@strapi/plugin-i18n": "4.16.2",
-    "@strapi/plugin-users-permissions": "4.16.2",
-    "@strapi/strapi": "4.16.2",
-    "better-sqlite3": "8.6.0",
+    "@strapi/plugin-i18n": "4.19.0",
+    "@strapi/plugin-users-permissions": "4.19.0",
+    "@strapi/provider-upload-cloudinary": "^4.19.0",
+    "@strapi/strapi": "4.19.0",
+    "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
@@ -33,6 +31,6 @@
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "b96155ec-4a1f-4cf5-bae0-44cdba424a98"
+    "uuid": "966bb12b-4ef5-4743-8ae4-c6b70272d34f"
   }
 }
